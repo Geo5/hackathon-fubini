@@ -13,7 +13,7 @@ docker run -it fubini [n (default=5)]
 
 ## Algorithmic Idea
 
-The basic formulas implemented are this [Recurrence relation](https://en.wikipedia.org/wiki/Ordered_Bell_number#Recurrence_and_modular_periodicity) for fubini numbers themself and this [Pascal's triangle recurrence](https://en.wikipedia.org/wiki/Ordered_Bell_number#Recurrence_and_modular_periodicity) for the binomial coefficients in it.
+The basic formulas implemented are this [Recurrence relation](https://en.wikipedia.org/wiki/Ordered_Bell_number#Recurrence_and_modular_periodicity) for fubini numbers themself and this [Pascal's triangle recurrence](https://en.wikipedia.org/wiki/Binomial_coefficient#Pascal's_triangle) for the binomial coefficients in it.
 
 The main program is written in Rust (under [src/main.rs](src/main.rs) ). The python implementation in [fubini.py](fubini.py) was just used as quick correctness check and is considerably slower!
 
