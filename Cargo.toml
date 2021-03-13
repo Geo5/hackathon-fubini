@@ -1,0 +1,20 @@
+[package]
+name = "fubini"
+version = "0.1.0"
+authors = ["georg"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.release]
+opt-level = 3
+debug = false
+lto = true
+
+[dependencies]
+ramp = "0.5.9"
+
+# [dependencies.rug]
+# version = "1.11"
+# default-features = false
+# features = ["integer"]
