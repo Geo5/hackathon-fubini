@@ -7,7 +7,7 @@ This project was created in the Relaxdays Code Challenge Vol. 1. See https://sit
 ```bash
 git clone https://github.com/Geo5/hackathon-fubini.git
 cd hackathon-fubini
-docker build -t fubini
+docker build -t fubini .
 docker run -it fubini [n (default=5)]
 ```
 
